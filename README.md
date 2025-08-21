@@ -145,8 +145,7 @@ If you use this model in your research, please cite:
 ```
 Moritz Löffler et. al.. (2025). Line-by-Line Radiative Transfer Model in python (lbl_rt_py) [Software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 ```
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16919242.svg)](https://doi.org/10.5281/zenodo.16919242)
 
 ## 🙏 Acknowledgments
 
