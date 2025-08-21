@@ -1,0 +1,5 @@
+numpy
+xarray
+DateTime
+# optional
+# bottleneck

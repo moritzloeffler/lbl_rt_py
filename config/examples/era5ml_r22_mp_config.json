@@ -1,0 +1,21 @@
+{
+  "timePeriod": ["2010-01-01", "2010-01-02"],
+  "model": "era5ml",
+  "freqs": "freq_hatpro_14",
+  "rt_config":
+  {
+    "files_in": "{path}/data/examples/era5ml_*.nc",
+    "f_out": "{path}/data/examples/out/era5ml_example.nc",
+    "ele": [90,30,20,10,5],
+    "station_height": null,
+    "comment_station_height": "height of observation in m above mean sea level. If null value from model is used",
+    "do_tmr_calc" : false,
+    "use_multiprocessing": true,
+    "abs_mod" : "r22",
+    "cloud_abs" : "ell07",
+    "air_corr" : "rueeger_aver_02",
+     "clear_sky_only": false,
+    "comment_clear_sky_only": "if 'true' sets LWC to zero.",
+    "comment": "Example for processing Era5 on model levels with r22"
+  }
+}

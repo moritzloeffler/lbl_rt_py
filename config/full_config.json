@@ -1,0 +1,35 @@
+{
+  "timePeriod": ["2025-01-01", "2025-02-01"],
+  "model": "era5",
+  "possible_models": ["era5", "era5ml", "icon", "st-atm"],
+  "freqs": "freq_all",
+  "possible_freqs": ["freq_MWR_2CH_LG", "freq_MWP1", "freq_MWP2", "freq_hatpro_14"],
+  "rt_config":
+  {
+    "dir_in": "/path/to/file/",
+    "other_input_specifications": ["dir_in", "files_in", "file_list"],
+    "_files_in": "/path/to/file/with/w*ldcards/f*le.nc",
+    "_file_list": ["file0", "file1", "file2", "...", "file_n"],
+    "hhl_file": "/path/to/*hhl_file.nc",
+    "comment_hhl_file": "only required for icon",
+    "f_out": "/specify/your/output/here/in/format.nc",
+    "theta": "[list]",
+    "station_height": null,
+    "comment_station_height": "height of observation in m above mean sea level. If null value from model is used",
+    "do_tmr_calc" : false,
+    "use_multiprocessing": true,
+    "abs_mod" : "r22",
+    "possible_abs_models": ["r98", "r20", "r22"],
+    "cloud_abs" : "ell07",
+    "possible_cloud_abs": ["lie", "ell", "ell07"],
+    "linew_22" : "lil05",
+    "cont_corr" : "tur09",
+    "comment_linew_22_and_cont_corr": "only relevant for abs_mod == r98",
+    "air_corr" : "rueeger_aver_02",
+    "possible_air_corr": ["thayer_74", "liebe_77", "hill_80", "bevis_94", "rueeger_avai_02",
+      "rueeger_aver_02", "sphere", "43", "no", "rozenberg_66", "young_94", "pickering_02"],
+    "clear_sky_only": false,
+    "comment_clear_sky_only": "if 'true' sets LWC to zero.",
+    "comment": "This comment will be in your output file"
+  }
+}

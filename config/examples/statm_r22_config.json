@@ -1,0 +1,19 @@
+{
+  "model": "st-atm",
+  "freqs": "freq_hatpro_14",
+  "rt_config":
+  {
+    "f_out": "{path}/data/examples/out/statm_example.nc",
+    "ele": 90,
+    "station_height": null,
+    "comment_station_height": "height of observation in m above mean sea level. If null value from model is used",
+    "do_tmr_calc" : false,
+    "use_multiprocessing": false,
+    "abs_mod" : "r22",
+    "cloud_abs" : "ell07",
+    "air_corr" : "rueeger_aver_02",
+     "clear_sky_only": false,
+    "comment_clear_sky_only": "if 'true' sets LWC to zero.",
+    "comment": "Example for processing standard atmospheres with r22"
+  }
+}
